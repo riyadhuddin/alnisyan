@@ -23,6 +23,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  camera:
+  path_provider:
+  path:
+
+  amplify_flutter: ^0.2.4
+  amplify_datastore: ^0.2.0
 
 
   # The following adds the Cupertino Icons font to your application.

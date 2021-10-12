@@ -1,0 +1,18 @@
+type Medicines @model {
+    id: ID!
+    title: String!
+    status:MedicineStatus!
+    rating: Int
+    time: Split
+}
+
+enum Split {
+    Morning
+    Day
+    Night
+}
+
+enum MedicineStatus {
+    Done
+    Due
+}
